@@ -1,0 +1,15 @@
+name: build-test
+id: com.joshua.build-test
+depends: mobilesubstrate
+architecture: iphoneos-arm
+version: 0.0.1
+description: A cool MobileSubstrate Tweak
+author: joshua
+section: Tweaks
+build-test:
+  type: tweak
+  filter:
+    executables:
+    - SpringBoard
+  files:
+  - build-test.x
