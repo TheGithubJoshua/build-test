@@ -23,4 +23,4 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: Build packages
-      uses: DragonBuild/build@master
+      uses: TheGithubJoshua/build@patch-2
