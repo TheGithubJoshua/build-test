@@ -24,3 +24,5 @@ jobs:
     steps:
     - name: Build packages
       uses: TheGithubJoshua/build@patch-2
+      with:
+       rootless: true
